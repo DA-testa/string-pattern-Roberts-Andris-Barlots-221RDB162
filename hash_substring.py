@@ -6,12 +6,13 @@ def read_input():
     if inputted_text == "f":
         file_path = "./tests/06"
         with open(file_path, 'r') as f:
-            pattern = f.readline().rstrip()
-            text = f.readline().rstrip()
+            pattern = f.readline().strip()
+            text = f.readline().strip()
 
     elif inputted_text == "i":
-        pattern = input().rstrip()
-        text = input().rstrip()
+        pattern = input().strip()
+        text = input().strip()
+
     return pattern, text
 
 def print_occurrences(output):
