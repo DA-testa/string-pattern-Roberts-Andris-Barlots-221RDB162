@@ -5,7 +5,7 @@ def read_input():
     pattern = None
     text = None
 
-    inputted_text = input()
+    inputted_text = input().replace('\r', '').replace('\n', '')
     if inputted_text == "f":
         file_path = "./tests/06"
         with open(file_path, 'r') as f:
