@@ -12,7 +12,7 @@ def read_input():
     elif inputted_text == "i":
         pattern = input().rstrip()
         text = input().rstrip()
-    return (pattern, text)
+    return pattern, text
 
 def print_occurrences(output):
     # this function should control output, it doesn't need any return
