@@ -2,6 +2,9 @@
 
 def read_input():
     
+    pattern = None
+    text = None
+
     inputted_text = input()
     if inputted_text == "f":
         file_path = "./tests/06"
